@@ -1,0 +1,137 @@
+{
+  "calendars": [
+    {
+      "name": "Not categorised",
+      "domains": [
+        "btb-curtin",
+        "sfr-curtin"
+      ]
+    },
+    {
+      "name": "Academic",
+      "domains": [
+        "curtin-aces",
+        "aipssacurtin",
+        "curtin-bsc",
+        "curtin-casa",
+        "cams",
+        "curtin-bca",
+        "curtin-cucc",
+        "curtin-ccea",
+        "curtin-club-rad",
+        "comssa",
+        "curtin-ccg",
+        "ccsc",
+        "curtin-dsa",
+        "curtin-cec",
+        "curtinfilm",
+        "curtin-gec",
+        "cirs",
+        "curtin-journalistsociety",
+        "mlc",
+        "cma",
+        "curtin-msc",
+        "curtin-otsociety",
+        "curtinphysics",
+        "curtinquantsociety",
+        "crohc",
+        "curtinsme",
+        "speechpathologysociety",
+        "sas",
+        "curtin-csls",
+        "cssa",
+        "curtintaxsociety",
+        "curtin-tpsa",
+        "curtinwritersclub",
+        "ffp-curtin",
+        "curtin-gss",
+        "curtin-hpsa",
+        "curtin-hsesc",
+        "curtin-hrsawa",
+        "ieee-curtin",
+        "iadc-curtin",
+        "npo-curtin",
+        "curtin-nadsa",
+        "wapsacurtin",
+        "curtin-wapss",
+        "curtin-wibcu",
+        "wiecd",
+        "curtin-wimar"
+      ]
+    },
+    {
+      "name": "International",
+      "domains": [
+        "ams-curtin",
+        "curtin-bsacu",
+        "curtinafricanstudents",
+        "curtincssa",
+        "cfss",
+        "cimsa",
+        "curtin-cjc",
+        "curtin-mena",
+        "curtinpalestiniansociety",
+        "curtin-css",
+        "curtin-ppia",
+        "ssacurtin",
+        "curtin-slaya",
+        "vsacurtin"
+      ]
+    },
+    {
+      "name": "Special Interest",
+      "domains": [
+        "curtin-cac",
+        "curtin-bouldering",
+        "bubbleteasociety",
+        "curtin-card-games",
+        "curtincrochet",
+        "cffoods",
+        "curtin-gdc",
+        "curtin-gaming",
+        "curtin-cilc",
+        "curtin-musicians",
+        "curtin-podcast-society",
+        "curtinpopculture",
+        "croc",
+        "curtin-singers",
+        "csow",
+        "curtin-ct",
+        "curtinyogaclub",
+        "enactuscurtin",
+        "curtin-ihoc",
+        "sccurtin",
+        "curtin-emas"
+      ]
+    },
+    {
+      "name": "Political",
+      "domains": [
+        "curtinlabor",
+        "curtin-cugwac",
+        "curtin-sa"
+      ]
+    },
+    {
+      "name": "Faith Based",
+      "domains": [
+        "aujs-curtin",
+        "curtin-ccm",
+        "curtinbahaisociety",
+        "curtin-cbbs",
+        "curtin-ccu",
+        "curtin-gds",
+        "curtin-hindu-club",
+        "curtin-msa",
+        "curtin-ibf",
+        "curtin-nza"
+      ]
+    },
+    {
+      "name": "Issues Based",
+      "domains": [
+        "curtin-ewb"
+      ]
+    }
+  ]
+}
