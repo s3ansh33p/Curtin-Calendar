@@ -3,8 +3,7 @@
     {
       "name": "Not categorised",
       "domains": [
-        "btb-curtin",
-        "sfr-curtin"
+        "curtin-psych"
       ]
     },
     {
@@ -13,6 +12,8 @@
         "curtin-aces",
         "aipssacurtin",
         "curtin-bsc",
+        "caa",
+        "curtin-ahc",
         "curtin-casa",
         "cams",
         "curtin-bca",
@@ -24,6 +25,7 @@
         "ccsc",
         "curtin-dsa",
         "curtin-cec",
+        "curtineta",
         "curtinfilm",
         "curtin-gec",
         "cirs",
@@ -31,6 +33,7 @@
         "mlc",
         "cma",
         "curtin-msc",
+        "curtin-cms",
         "curtin-otsociety",
         "curtinphysics",
         "curtinquantsociety",
@@ -54,6 +57,7 @@
         "curtin-nadsa",
         "wapsacurtin",
         "curtin-wapss",
+        "wasssacurtin",
         "curtin-wibcu",
         "wiecd",
         "curtin-wimar"
@@ -69,9 +73,11 @@
         "cfss",
         "cimsa",
         "curtin-cjc",
+        "curtin-libyan",
         "curtin-mena",
         "curtinpalestiniansociety",
         "curtin-css",
+        "csee",
         "curtin-ppia",
         "ssacurtin",
         "curtin-slaya",
@@ -81,7 +87,9 @@
     {
       "name": "Special Interest",
       "domains": [
+        "btb-curtin",
         "curtin-cac",
+        "cais",
         "curtin-bouldering",
         "bubbleteasociety",
         "curtin-card-games",
@@ -90,12 +98,15 @@
         "curtin-gdc",
         "curtin-gaming",
         "curtin-cilc",
+        "curtinmixology",
         "curtin-musicians",
+        "cpc",
         "curtin-podcast-society",
         "curtinpopculture",
         "croc",
         "curtin-singers",
         "csow",
+        "curtinshs",
         "curtin-ct",
         "curtinyogaclub",
         "enactuscurtin",
@@ -130,7 +141,8 @@
     {
       "name": "Issues Based",
       "domains": [
-        "curtin-ewb"
+        "curtin-ewb",
+        "sfr-curtin"
       ]
     }
   ]
