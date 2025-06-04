@@ -7,6 +7,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+
 	"path/filepath"
 	"sync"
 
@@ -19,8 +20,8 @@ import (
 )
 
 type Calendar struct {
-	Name    string   `json:"name"`
-	Domains []string `json:"domains"`
+	Name    string     `json:"name"`
+	Domains [][]string `json:"domains"`
 }
 
 type Calendars struct {
@@ -111,7 +112,7 @@ func main() {
 		cal := ics.NewCalendar()
 		cal.SetProductId("-//s3ansh33p//Curtin-Clubs//EN")
 
-		for _, domain := range calendar.Domains {
+		for _, domainPair := range calendar.Domains {
 			wg.Add(1)
 			go func(domain string) {
 				defer wg.Done()
@@ -128,13 +129,14 @@ func main() {
 					}
 				}
 
-				fmt.Println("Fetched " + domain + " (" + PRODID + ")")
+				numEvents := len(ical.Events())
+				fmt.Println("Fetched " + domain + " (" + PRODID + ") - " + fmt.Sprintf("%d events", numEvents))
 				for _, event := range ical.Events() {
 					description := PRODID + "\nURL: " + event.GetProperty("URL").Value + "\n" + event.GetProperty("DESCRIPTION").Value
 					event.SetDescription(description)
 					cal.AddVEvent(event)
 				}
-			}(domain)
+			}(domainPair[0])
 		}
 
 		wg.Wait()
